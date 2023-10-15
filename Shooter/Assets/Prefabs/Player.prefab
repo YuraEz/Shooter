@@ -123,8 +123,6 @@ MonoBehaviour:
   SquattingSpeed: 3
   Squatting: 0
   RB: {fileID: -469675370098828764}
-  PlayerCamera: {fileID: 0}
-  Camera: {fileID: 0}
   JumpForse: 21
   JumpCheckDistance: 7
   GroundMask:
@@ -262,6 +260,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4128285546623987484}
+    - targetCorrespondingSourceObject: {fileID: 1882210477992490677, guid: 1b414f37d541a61478f4bbff58cfeaaf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8476379700153313891}
   m_SourcePrefab: {fileID: 100100000, guid: 1b414f37d541a61478f4bbff58cfeaaf, type: 3}
 --- !u!1 &1931575698712386865 stripped
 GameObject:
@@ -282,6 +284,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerCamera: {fileID: 3687966214140809468}
+--- !u!114 &8476379700153313891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931575698712386865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 792e5be7d39276341a0a0ba9163c7ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &3253215932485076829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3311587253082385625, guid: 1b414f37d541a61478f4bbff58cfeaaf,

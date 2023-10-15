@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
 
     public Vector3 RightHandTarget;
     public Vector3 RightHandHint;
+    public Vector3 RightHandRoatate;
 
     public Vector3 LeftHandTarget;
     public Vector3 LeftHandHint;
@@ -21,7 +22,7 @@ public class Weapon : MonoBehaviour
     private bool CanAttack = true;
 
 
-    public Vector3 RightHandRoatate;
+
 
     public void Attack()
     {

@@ -7,6 +7,7 @@ public enum PlayerState { SwitchTeam, Active, Dead }
 public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance;
+    public GameObject MainCamera;
 
 
 
@@ -35,10 +36,12 @@ public class PlayerManager : MonoBehaviour
             case PlayerState.SwitchTeam:
                 UI.ChangeScreen("Match");
                 LocalPlayer.gameObject.SetActive(false);
+                MainCamera.SetActive(true);
                 break;
             case PlayerState.Active:
                 UI.ChangeScreen("Hud");
                 LocalPlayer.gameObject.SetActive(true);
+                MainCamera.SetActive(false);
                 break;
         }
     }
